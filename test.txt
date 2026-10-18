@@ -1,1 +1,1 @@
-To jest inna wersja z galezi test
+Rozwiazany konflikt - polaczenie zmian z test i test_2
