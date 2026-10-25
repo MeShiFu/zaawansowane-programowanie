@@ -26,5 +26,8 @@ jobs:
       - name: Install pycodestyle
         run: pip install pycodestyle
 
+      - name: Install black
+        run: pip install black
+
       - name: Check PEP 8
         run: pycodestyle --exclude=venv,.venv . --count
