@@ -20,7 +20,9 @@ class House(Property):
         self.plot = plot
 
     def __str__(self):
-        return f"Dom: {super().__str__()}, powierzchnia działki: {self.plot} m²"
+        return (
+            f"Dom: {super().__str__()}, powierzchnia działki: {self.plot} m²"
+        )
 
 
 class Flat(Property):

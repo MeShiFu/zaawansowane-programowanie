@@ -50,7 +50,12 @@ class Employee:
 
 class Book:
     def __init__(
-        self, library, publication_date, author_name, author_surname, number_of_pages
+        self,
+        library,
+        publication_date,
+        author_name,
+        author_surname,
+        number_of_pages,
     ):
         self.library = library
         self.publication_date = publication_date
@@ -104,8 +109,12 @@ class Student:
         )
 
 
-library1 = Library("Warszawa", "Marszałkowska 10", "00-001", "08:00-18:00", "123456789")
-library2 = Library("Kraków", "Floriańska 15", "31-019", "09:00-17:00", "987654321")
+library1 = Library(
+    "Warszawa", "Marszałkowska 10", "00-001", "08:00-18:00", "123456789"
+)
+library2 = Library(
+    "Kraków", "Floriańska 15", "31-019", "09:00-17:00", "987654321"
+)
 employee1 = Employee(
     "Jan",
     "Kowalski",
