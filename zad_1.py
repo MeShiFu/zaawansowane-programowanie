@@ -1,5 +1,7 @@
-def welcome(name: str,surname: str) -> str:
-    message = f'Cześć {name} {surname}'
+def welcome(name: str, surname: str) -> str:
+    message = f"Cześć {name} {surname}"
     return message
-message = welcome('marek','kleszcz')
+
+
+message = welcome("marek", "kleszcz")
 print(message)

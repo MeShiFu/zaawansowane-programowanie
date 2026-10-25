@@ -1,6 +1,7 @@
 import requests
 import argparse
 
+
 class Brewery:
     def __init__(self, data):
         # Przypisujemy wszystkie standardowe pola z API Open Brewery DB
@@ -20,6 +21,7 @@ class Brewery:
         self.website_url = data.get("website_url")
         self.state = data.get("state")
         self.street = data.get("street")
+
     def __str__(self) -> str:
         return (
             f"Name: {self.name}\n"
@@ -31,7 +33,9 @@ class Brewery:
             f"Country: {self.country}\n"
             f"Phone: {self.phone}\n"
             f"Website: {self.website_url}"
-            )
+        )
+
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--city")
 args = parser.parse_args()

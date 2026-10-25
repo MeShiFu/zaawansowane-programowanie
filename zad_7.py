@@ -1,5 +1,6 @@
 import requests
 
+
 class Brewery:
     def __init__(self, data):
         # Przypisujemy wszystkie standardowe pola z API Open Brewery DB
@@ -19,6 +20,7 @@ class Brewery:
         self.website_url = data.get("website_url")
         self.state = data.get("state")
         self.street = data.get("street")
+
     def __str__(self) -> str:
         return (
             f"Name: {self.name}\n"
@@ -30,10 +32,12 @@ class Brewery:
             f"Country: {self.country}\n"
             f"Phone: {self.phone}\n"
             f"Website: {self.website_url}"
-            )
+        )
+
+
 url = "https://api.openbrewerydb.org/v1/breweries?per_page=20"
 response = requests.get(url)
-dane_json = response.json() 
+dane_json = response.json()
 
 lista_browarow = []
 for item in dane_json:
