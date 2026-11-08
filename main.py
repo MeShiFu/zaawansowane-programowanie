@@ -1,4 +1,3 @@
-
 # Importy
 from magazine import Product
 from oop.student import Student
@@ -8,7 +7,6 @@ from oop.book import Book
 from oop.order import Order
 from oop.house import House
 from oop.flat import Flat
-
 
 # Zadanie 1
 product = Product.Product()
@@ -73,7 +71,7 @@ print(order1)
 print(order2)
 
 
-#nieruchomości
+# nieruchomości
 house = House(150, 5, 850000, "ul. Leśna 10", 600)
 flat = Flat(55, 3, 450000, "ul. Kwiatowa 5", 2)
 
