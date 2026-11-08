@@ -6,9 +6,7 @@ class Order:
         self.order_date = order_date
 
     def __str__(self):
-        books_description = "\n".join(
-            f"  - {book}" for book in self.books
-        )
+        books_description = "\n".join(f"  - {book}" for book in self.books)
 
         return (
             f"Zamówienie z dnia: {self.order_date}\n"

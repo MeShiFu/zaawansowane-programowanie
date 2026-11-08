@@ -14,4 +14,4 @@ class Student:
             f"Student: {self.name}, "
             f"oceny: {self.marks}, "
             f"zaliczył: {self.is_passed()}"
-        )   
+        )

@@ -1,7 +1,6 @@
 # Zadanie 1
 from magazine import Product
 
-
 product = Product.Product()
 product.show()
 
@@ -13,7 +12,6 @@ from oop.book import Book
 from oop.order import Order
 from oop.house import House
 from oop.flat import Flat
-
 
 # Studenci
 student1 = Student("Adam", [75, 20, 100, 80, 56, 72])
@@ -35,12 +33,24 @@ library2 = Library(
 
 # Pracownicy
 employee1 = Employee(
-    "Jan", "Kowalski", "2022-01-10", "1990-05-15",
-    "Warszawa", "Polna 1", "00-001", "111111111"
+    "Jan",
+    "Kowalski",
+    "2022-01-10",
+    "1990-05-15",
+    "Warszawa",
+    "Polna 1",
+    "00-001",
+    "111111111",
 )
 employee2 = Employee(
-    "Anna", "Nowak", "2023-03-20", "1995-08-22",
-    "Kraków", "Długa 5", "31-019", "222222222"
+    "Anna",
+    "Nowak",
+    "2023-03-20",
+    "1995-08-22",
+    "Kraków",
+    "Długa 5",
+    "31-019",
+    "222222222",
 )
 
 
@@ -60,7 +70,7 @@ print(order1)
 print(order2)
 
 
-#nieruchomości
+# nieruchomości
 house = House(150, 5, 850000, "ul. Leśna 10", 600)
 flat = Flat(55, 3, 450000, "ul. Kwiatowa 5", 2)
 
