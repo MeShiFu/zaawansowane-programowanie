@@ -1,10 +1,6 @@
-# Zadanie 1
+
+# Importy
 from magazine import Product
-
-product = Product.Product()
-product.show()
-
-# Zadanie 2
 from oop.student import Student
 from oop.library import Library
 from oop.employee import Employee
@@ -13,6 +9,13 @@ from oop.order import Order
 from oop.house import House
 from oop.flat import Flat
 
+
+# Zadanie 1
+product = Product.Product()
+product.show()
+
+
+# Zadanie 2
 # Studenci
 student1 = Student("Adam", [75, 20, 100, 80, 56, 72])
 student2 = Student("Marek", [5, 2, 10, 8, 56, 7])
@@ -70,7 +73,7 @@ print(order1)
 print(order2)
 
 
-# nieruchomości
+#nieruchomości
 house = House(150, 5, 850000, "ul. Leśna 10", 600)
 flat = Flat(55, 3, 450000, "ul. Kwiatowa 5", 2)
 
